@@ -23,7 +23,8 @@ classifier = LogisticRegression()
 classifier.fit(X_train, y_train)
 
 # confusion matrix
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix,accuracy_score
 
 cm = confusion_matrix(y_test, classifier.predict(X_test))
 print(cm)
+print(accuracy_score(y_test, classifier.predict(X_test)))
