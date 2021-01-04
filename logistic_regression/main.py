@@ -20,4 +20,10 @@ X_train = sc.transform(X_train)
 from sklearn.linear_model import LogisticRegression
 
 classifier = LogisticRegression()
-classifier.fit(X_train,y_train)
+classifier.fit(X_train, y_train)
+
+# confusion matrix
+from sklearn.metrics import confusion_matrix
+
+cm = confusion_matrix(y_test, classifier.predict(X_test))
+print(cm)
