@@ -23,8 +23,8 @@ X_test = sc.transform(X_test)
 
 
 # Training the model
-from sklearn.svm import SVC as model
-classifier = model(kernel="rbf",random_state=0)
+from sklearn.naive_bayes import GaussianNB as model
+classifier = model()
 classifier.fit(X_train, y_train)
 
 # Predicting the Test set results
