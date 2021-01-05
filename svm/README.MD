@@ -1,4 +1,4 @@
-# KNN Classifier
+# SVM Classifier
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/scottydocs/README-template.md)
@@ -12,12 +12,12 @@ Additional line of information text about what the project does. Your introducti
 
 ## Prerequisites
 
-## Installing KNN Classifier
+## Installing SVM Classifier
 
 ```
-## Using KNN Classifier
+## Using SVM Classifier
 
-To use KNN Classifier, follow these steps:
+To use SVM Classifier, follow these steps:
 
 ```
 python main.py
